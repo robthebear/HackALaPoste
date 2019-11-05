@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HackLaPoste",
+            "request": "launch",
+            "mainClass": "HackLaPoste",
+            "projectName": "HackPoste_9c271dc1"
+        }
+    ]
+}

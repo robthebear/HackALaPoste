@@ -10,15 +10,18 @@ public class HackLaPoste {
 
 public void lectureFichiers(String Users) {
     try {
-        Scanner scanner = new Scanner(new File("example.txt"));
+        Scanner scanner = new Scanner(new File("connexion.log"));
         while(scanner.hasNext())
         {
             String line = scanner.next();
-            //do stuff
-        }
+System.out.println(line);        }
     } catch (FileNotFoundException e) {
         e.printStackTrace();
     }
+}
+public static void main(String[] args) {
+    HackLaPoste hack = new HackLaPoste();
+    hack.lectureFichiers(null);
 }
 
 
